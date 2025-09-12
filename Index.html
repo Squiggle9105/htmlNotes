@@ -1,6 +1,41 @@
 <html>
+    
     <head>
+        <link rel="stylesheet" href="style.css">
         <title>Notes Page | Home</title>
+        <style>
+            p
+            {
+                font-size: 10pt;
+                font-weight:800;
+            }
+            header
+            {
+                width:800px;
+                height: 130px;
+                background-color:#213;
+                color:rgb(255, 255, 255);
+                padding:20px;
+                text-align:center;
+            }
+            body
+            {
+                background-color:#ccf;
+                color:#213;
+            }
+            main
+            {
+                width:800px;
+                padding:10px;
+                background-color:#caf
+            }
+            section
+            {
+                background-color:rgba(255,255,255,0.5);
+                padding: 5px;
+                border-radius:10px 140px 10px 40px;
+            }
+        </style>
     </head>
         <body>
             <header>
@@ -10,7 +45,7 @@
                        <a href="index.html">Home |</a>
                         <a href="lists.html"> Lists</a>|
                         <a href="images.html">Images</a>|
-                        <a href="Tables">Tables </a>|
+                        <a href="tables.html">Tables </a>|
                         <a href="color.html">Color </a>|
                         <a href="odds.html">Odds </a>|
                         <a href="layout.html">Layout</a>
@@ -19,14 +54,27 @@
                 </nav>
                 <main>
                     <section>
-
+                <h1>CSS Notes</h1>
+                <h3>Syntax</h3>
+                <p>Selector {attribute: value;}</p>
+                <h3 style="font-family:Comic Sans ms; font-weight:1;font-size:12pt">Locations of CSS</h3>
+                <p>You can do your CSS styles in 3 places<br>
+                    -Inline<br>
+                    -Document Head<br>
+                    -External Style Sheet</p>
+                    <p>There is an overwrite order </p>
+                    <h3>3 ways to apply styles</h3>
+                    <p>the three ways to apply styles to a block of html<br>
+                        -Hijack HTML tag <br>
+                        -we define a class and then apply it <br>
+                        -we define an id and then apply it 
                     </section>
                     <aside>
 
                     </aside>
                 </main>
-                <footer>
-                    
+                <footer style="border-width: 2px; border-style: #000; border-style: solid;">
+                <span style="border: 2px solid #00f; font-style: italic;"> &copy; Kaitlyn Hoyt </span> | 2025
                 </footer>
             </header>
         </body>
